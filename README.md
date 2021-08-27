@@ -1,1 +1,1 @@
-# Recommendation_system
+# Recommendation_system : Recommend items to users based on information taken from the user
