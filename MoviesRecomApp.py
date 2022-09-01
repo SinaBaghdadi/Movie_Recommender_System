@@ -8,8 +8,8 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 ##
-movies_df = pd.read_csv('E:\DATA\moviedataset\movies.csv')
-ratings_df = pd.read_csv(r'E:\DATA\moviedataset\ratings.csv')
+movies_df = pd.read_csv('\DATA\moviedataset\movies.csv')
+ratings_df = pd.read_csv('\DATA\moviedataset\ratings.csv')
 All_Movie = movies_df.title.to_list()
 
 ''' Test 
@@ -136,6 +136,8 @@ def checkkey(word):
 def radio():
     global X
     X = v_radio.get()
+            
+## Bulid User interface
 
 window = Tk()
 tit = Label(window, text= 'Movie Recommend System',font = "75")
